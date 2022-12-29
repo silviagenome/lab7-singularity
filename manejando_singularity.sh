@@ -1,5 +1,6 @@
 #!/bin/bash
 module load singularity/3.8.0
+module load anaconda/2020.11
 echo El hostname de ibsen es:
 hostname
 echo
@@ -35,4 +36,4 @@ echo El notebook dentro de la carpeta:
 ipython source/kmer-solution.ipynb
 echo
 echo El notebook dentro de singularity
-singularity exec $HOME/my-python.sif ipython source/kmer-solution.ipynb
+singularity exec $HOME/my-python.sif ipython /home/kmer-solution.ipynb

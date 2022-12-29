@@ -51,7 +51,7 @@ drwx------.  3 alumno04  alumno04   145 nov 30 12:44 alumno04
 drwx------.  2 alumno05  alumno05   133 nov 30 11:45 alumno05
 drwx------. 12 alumno06  alumno06  4096 dic 18 20:24 alumno06
 drwx------.  2 alumno07  alumno07   133 nov 30 11:59 alumno07
-drwx------. 17 alumno08  alumno08  4096 dic 29 20:00 alumno08
+drwx------. 17 alumno08  alumno08  4096 dic 29 22:35 alumno08
 drwx------.  2 alumno09  alumno09   133 nov 30 12:03 alumno09
 drwx------.  2 alumno10  alumno10   133 nov 30 12:00 alumno10
 drwx------.  2 alumno11  alumno11   133 nov 30 12:00 alumno11
@@ -65,7 +65,7 @@ drwx------.  3 alumno18  alumno18   145 nov 30 12:45 alumno18
 drwx------.  2 alumno19  alumno19   133 nov 30 12:05 alumno19
 drwx------. 15 alumno20  alumno20  4096 dic 29 20:17 alumno20
 drwx------. 12 alumno21  alumno21  4096 dic 29 18:17 alumno21
-drwx------. 18 alumno22  alumno22  4096 dic 29 18:44 alumno22
+drwx------. 18 alumno22  alumno22  4096 dic 29 22:40 alumno22
 drwx------. 19 alumno23  alumno23  4096 dic 29 00:03 alumno23
 drwx------. 11 alumno24  alumno24  4096 dic 29 22:16 alumno24
 drwx------. 22 alumno25  alumno25  4096 dic 29 21:26 alumno25
@@ -105,27 +105,23 @@ drwx------. 17 alumno15 alumno15   4096 Dec 29 22:19 alumno15
 -rwxr-xr-x.  1 root     root     417019 Dec 28 19:25 pi-solution.ipynb
 
 El comando python –version de ibsen es:
-Python 3.7.7 :: Intel(R) Corporation
+Python 3.8.5
 
 El comando python –version de singularity es:
 Python 3.7.16
 
 El notebook dentro de la carpeta:
-[22;0t]0;IPython: alumno15/lab7-singularity[0;31m---------------------------------------------------------------------------[0m
-[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-[0;32m~/lab7-singularity/source/kmer-solution.ipynb[0m in [0;36m<module>[0;34m[0m
-[0;32m----> 1[0;31m [0;32mfrom[0m [0mnumba[0m [0;32mimport[0m [0mnjit[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m      2[0m [0;32mimport[0m [0mnumpy[0m [0;32mas[0m [0mnp[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      3[0m [0;34m[0m[0m
-[1;32m      4[0m [0;34m@[0m[0mnjit[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      5[0m [0;32mdef[0m [0mconvert[0m[0;34m([0m[0mc[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[22;0t]0;IPython: alumno15/lab7-singularityStart
+Number of generated k-mers: 268435456
 
-[0;31mModuleNotFoundError[0m: No module named 'numba'
+763 ms ± 7.2 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
 
 El notebook dentro de singularity
 [22;0t]0;IPython: alumno15/lab7-singularityStart
 Number of generated k-mers: 268435456
 
-759 ms ± 7.7 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+755 ms ± 6.32 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
 
 Finish!
